@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<img src="./img/SPLITTER.svg" alt="logo-tip-app" />
+		<main>
+			<section class="left">
+				<form>
+					<div class="same-div">
+						<label class="label-input">Bill</label>
+						<div class="div-input">
+							<img src="./img/$.svg" alt="money" />
+							<input
+								type="number"
+								class="input-bill"
+								placeholder="0"
+								id="first-input"
+							/>
+						</div>
+					</div>
+					<div class="same-div">
+						<label class="label-input">Select Tip %</label>
+						<div class="grid-tip">
+							<button data-btn1 class="tip-btn">5%</button>
+							<button data-btn2 class="tip-btn">10%</button>
+							<button data-btn3 class="tip-btn">15%</button>
+							<button data-btn4 class="tip-btn">25%</button>
+							<button data-btn5 class="tip-btn">50%</button>
+							<input type="text" class="input-tip" placeholder="Custom" />
+						</div>
+					</div>
+					<div class="same-div">
+						<label class="label-input">Number of People</label>
+						<div class="div-input">
+							<img src="./img/$.svg" alt="money" />
+							<input
+								type="number"
+								class="input-bill"
+								placeholder="0"
+								id="second-input"
+							/>
+						</div>
+					</div>
+				</form>
+			</section>
+			<section class="right">
+				<div class="all-tip-to">
+					<div class="tip">
+						<div class="left-tip">
+							<p>Tip Amount</p>
+							<span>/ person</span>
+						</div>
+						<p class="total-price">$0.00</p>
+					</div>
+					<div class="total">
+						<div class="left-total">
+							<p class="total-normal">Total</p>
+							<span>/ person</span>
+						</div>
+						<p class="total-price" id="total-price">$0.00</p>
+					</div>
+				</div>
+				<button class="reset">RESET</button>
+			</section>
+		</main>
+		<script src="./script.js"></script>
+	</body>
+</html>
