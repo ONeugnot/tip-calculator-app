@@ -105,7 +105,7 @@ form {
 	text-align: center;
 	border-radius: 5px;
 }
-.active {
+.tip-btn:focus {
 	background-color: #9fe8df;
 	color: #00474b;
 }
@@ -167,14 +167,17 @@ span {
 .reset {
 	padding: 10px;
 	border-radius: 5px;
-	background-color: #0d686d;
-	color: #00474b;
 	font-size: 20px;
 	font-weight: 700;
 	border: none;
 }
 
-.reset:hover {
+.reset:disabled {
+	background-color: #0d686d;
+	color: #00474b;
+}
+
+.btnres {
 	background-color: #9fe8df;
 	color: #00474b;
 }
